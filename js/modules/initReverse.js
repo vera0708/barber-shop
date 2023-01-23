@@ -69,7 +69,6 @@ const renderTime = (wrapper, data) => {
 
 export const initReserve = () => {
     const reserveForm = document.querySelector('.reserve__form')
-    console.log('reserveForm:  ', reserveForm.fieldspec)
     const { fieldservice, fieldspec, fielddata, fieldmonth, fieldday, fieldtime,
         btn_reserve } = reserveForm;
 
@@ -144,7 +143,6 @@ export const initReserve = () => {
         })
 
         const data = await response.json()
-        console.log('data:  ', data)
 
         addDisabled([
             fieldservice,

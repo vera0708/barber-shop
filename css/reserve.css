@@ -1,5 +1,5 @@
 .reserve {
-    padding: 62px 0 124px;
+    padding: 62px 0 100px;
 }
 
 .reserve__title {
@@ -58,6 +58,10 @@
 .reserve__btn:hover {
     background: #BFBDB2;
     color: #241D1C;
+}
+
+.reserve__btn {
+    margin-bottom: 24px;
 }
 
 @media(max-width: 768px) {
